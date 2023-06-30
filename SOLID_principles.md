@@ -1,6 +1,11 @@
 # References
 1. https://davecallan.com/what-to-look-for-when-reviewing-code-for-solid-principle-violations/
 2. https://www.baeldung.com/java-liskov-substitution-principle
+3. https://betterprogramming.pub/5-problems-faced-when-using-solid-design-principles-and-how-to-fix-them-df6dbf3699fb
+
+# Better interpretation of SOLID principles
+1. Single-Responsibility Principle (SRP) - Each module has to be responsible for one — and only one — user or stakeholder.
+
 
 
 | Signs to look - Code Review  | Pattern violated | Fix
