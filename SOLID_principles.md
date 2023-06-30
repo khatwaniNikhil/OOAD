@@ -15,7 +15,18 @@ large (fat) interfaces with a lot of unfocused methods| Interface segregation pr
 Interfaces whose clients throw NotImplementedException() a lot| Interface segregation principle  | Break into multiple interfaces  |
 lot of new statements or dependencies defined within method body | Dependency inversion principle | use container like spring IOC  |
 
+# Real world refactoring
+1. Without open closed principle
 
+![]()
+
+2. With open closed principle
+
+![]()
+
+3. With open closed and Liskov Substitution_Principle
+   
+![]()
 
 
 
