@@ -4,9 +4,17 @@
 3. https://betterprogramming.pub/5-problems-faced-when-using-solid-design-principles-and-how-to-fix-them-df6dbf3699fb
 
 # Better interpretation of SOLID principles
-1. Single-Responsibility Principle (SRP) - Each module has to be responsible for one — and only one — user or stakeholder.
+## Single-Responsibility Principle (SRP) 
+Each module has to be responsible for one — and only one — user or stakeholder.
 
+   ### Finance and analytics stake holders coupled
+![](https://github.com/khatwaniNikhil/OOAD/blob/main/before_SRP.png)
 
+  ### Finance and analytics stake holders decoupled (SRP related refactoring)
+![](https://github.com/khatwaniNikhil/OOAD/blob/main/after_SRP.png)
+
+## Open-Closed Principle (OCP)
+Closed for modification means that the result of extending the behavior of existing modules shouldn’t force you to make changes in the modules depending on it.
 
 | Signs to look - Code Review  | Pattern violated | Fix
 | --- | --- |--- |
