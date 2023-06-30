@@ -15,18 +15,19 @@ large (fat) interfaces with a lot of unfocused methods| Interface segregation pr
 Interfaces whose clients throw NotImplementedException() a lot| Interface segregation principle  | Break into multiple interfaces  |
 lot of new statements or dependencies defined within method body | Dependency inversion principle | use container like spring IOC  |
 
-# Real world refactoring
+
+# Real world refactoring example
 1. Without open closed principle
 
-![]()
+![](https://github.com/khatwaniNikhil/OOAD/blob/main/attempt1_without_open_closed_principle.webp)
 
 2. With open closed principle
 
-![]()
+![](https://github.com/khatwaniNikhil/OOAD/blob/main/attempt2_with_open_closed_principle.webp)
 
 3. With open closed and Liskov Substitution_Principle
    
-![]()
+![](https://github.com/khatwaniNikhil/OOAD/blob/main/attempt3_with_open_closed_Liskov%20Substitution_Principle.webp)
 
 
 
