@@ -7,10 +7,10 @@
 | --- | --- |--- |
 | Large classes which contain lots of functionality | Single responsibility principle | Break into smaller with data and behavior on data colocated |
 | Long blocks of if/else statements that check an object’s type | Open/closed principle  |  use polymorphism either through interfaces or abstract classes |
-| A Subtype Throws an Exception for a Behavior It Can't Fulfill | Liskov substitution principle  |   |
-| A Subtype Provides No Implementation for a Behavior It Can't Fulfill | Liskov substitution principle  |   |
-Subclass methods that enforce stricter rules on parameters than their base| Liskov substitution principle  |   |
-Methods that appear from a signature point of view to operate on a base class (or interface) but then within the method some type checking occurs| Liskov substitution principle  |   |
+| A Subtype Throws an Exception for a Behavior It Can't Fulfill | Liskov substitution principle  | Consider Interface inheritance hierarchy  |
+| A Subtype Provides No Implementation for a Behavior It Can't Fulfill | Liskov substitution principle  | Consider Interface inheritance hierarchy  |
+Subclass methods that enforce stricter rules on parameters than their base| Liskov substitution principle  | Consider Interface inheritance hierarchy  |
+Methods that appear from a signature point of view to operate on a base class (or interface) but then within the method some type checking occurs| Liskov substitution principle  | Consider Interface inheritance hierarchy  |
 large (fat) interfaces with a lot of unfocused methods| Interface segregation principle  | Break into multiple interfaces  |
 Interfaces whose clients throw NotImplementedException() a lot| Interface segregation principle  | Break into multiple interfaces  |
 lot of new statements or dependencies defined within method body | Dependency inversion principle | use container like spring IOC  |
