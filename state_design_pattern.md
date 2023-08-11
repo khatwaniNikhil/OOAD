@@ -14,13 +14,16 @@
   	   Disbursed is our terminal state
 
 # Scala design - state design pattern
+```
 trait LoanState {
-	// validate state transition
-	def validateTransition(Loan loan) throws InvalidStateTransitionException;
-	// invoke actions	
-	def stateTriggeredAction(Loan loan)
+   // validate state transition
+   def validateTransition(Loan loan) throws InvalidStateTransitionException;
+   // invoke actions
+   def stateTriggeredAction(Loan loan)
 }
+```
 
+```
 class Loan {
 	LoanState currentState;
 
@@ -29,3 +32,4 @@ class Loan {
 		newState.stateTriggeredAction();
 	}
 }
+```
