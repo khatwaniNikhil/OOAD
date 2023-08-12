@@ -1,4 +1,10 @@
-# Problem
+# References
+https://refactoring.guru/design-patterns/state
+https://medium.com/nerd-for-tech/the-super-state-design-pattern-166127ce7c9a
+https://www.baeldung.com/spring-state-machine
+
+
+# Sample Problem
 1. loan entity has state transitions: pending,validated, onhold, disbursed
 2. state specific behaviors:
     1. on reaching pending => assign to validator
