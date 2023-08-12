@@ -1,10 +1,10 @@
 # Problem
 1. loan entity has state transitions: pending,validated, onhold, disbursed
 2. state specific behaviors:
-   on reaching pending => assign to validator
-   on reaching disbursed => add disbursal date
-   on reaching validated => change two params
-3. Transfers possible are : 
+    1. on reaching pending => assign to validator
+    2. on reaching disbursed => add disbursal date
+    3. on reaching validated => change two params
+4. Transfers possible are : 
        Pending -> validated
        Validated -> pending
        Pending -> onHold
